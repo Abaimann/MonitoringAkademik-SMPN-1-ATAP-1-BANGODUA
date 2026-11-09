@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Production builds
+dist/
+**/dist/
+dist-ssr/
+
+# Temporary / OS files
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+
+# Local environment
+.env.local
+.env.*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite cache
+.vite/
